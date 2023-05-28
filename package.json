@@ -2,7 +2,7 @@
  
   "name": "portfolio",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "www",
   
   "scripts": {
     "start": "node ./bin/www",
