@@ -1,0 +1,22 @@
+{
+ "homepage": "https://edisson89.github.io/portfolio/",
+  "name": "portfolio",
+  "version": "0.0.0",
+  
+  
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www",
+    "deploy": " npx gh-pages -d ."
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "gh-pages": "^5.0.0",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.22",
+    "pug": "2.0.0-beta11"
+  }
+}
